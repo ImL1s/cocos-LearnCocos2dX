@@ -288,7 +288,7 @@ project.xcworkspace
 # Compiled Static libraries
 *.lai
 *.la
-*.a
+#*.a
 *.lib
 
 # Executables

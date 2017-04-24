@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0925E3181EAE7B22004591B5 /* cocos2d-prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 0925E3171EAE7B22004591B5 /* cocos2d-prefix.pch */; };
+		0925E3191EAE7B22004591B5 /* cocos2d-prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 0925E3171EAE7B22004591B5 /* cocos2d-prefix.pch */; };
+		0925E31A1EAE7B22004591B5 /* cocos2d-prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 0925E3171EAE7B22004591B5 /* cocos2d-prefix.pch */; };
+		0925E31C1EAE7B49004591B5 /* cocos2d-prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 0925E31B1EAE7B49004591B5 /* cocos2d-prefix.pch */; };
+		0925E31D1EAE7B49004591B5 /* cocos2d-prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 0925E31B1EAE7B49004591B5 /* cocos2d-prefix.pch */; };
+		0925E31E1EAE7B49004591B5 /* cocos2d-prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 0925E31B1EAE7B49004591B5 /* cocos2d-prefix.pch */; };
 		0C261F281BE7528900707478 /* Light3DReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C261F261BE7528900707478 /* Light3DReader.cpp */; };
 		0C261F291BE7528900707478 /* Light3DReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C261F261BE7528900707478 /* Light3DReader.cpp */; };
 		0C261F2A1BE7528900707478 /* Light3DReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C261F271BE7528900707478 /* Light3DReader.h */; };
@@ -5903,6 +5909,8 @@
 		06CAAABF186AD63B0012A414 /* TriggerMng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriggerMng.h; sourceTree = "<group>"; };
 		06CAAAC0186AD63B0012A414 /* TriggerObj.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TriggerObj.cpp; sourceTree = "<group>"; };
 		06CAAAC1186AD63B0012A414 /* TriggerObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriggerObj.h; sourceTree = "<group>"; };
+		0925E3171EAE7B22004591B5 /* cocos2d-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "cocos2d-prefix.pch"; sourceTree = "<group>"; };
+		0925E31B1EAE7B49004591B5 /* cocos2d-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "cocos2d-prefix.pch"; sourceTree = "<group>"; };
 		0C261F261BE7528900707478 /* Light3DReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Light3DReader.cpp; sourceTree = "<group>"; };
 		0C261F271BE7528900707478 /* Light3DReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Light3DReader.h; sourceTree = "<group>"; };
 		1551A33F158F2AB200E66CFE /* libcocos2d Mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libcocos2d Mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -10082,6 +10090,7 @@
 		503DD8CD1926736A00CD74DD /* ios */ = {
 			isa = PBXGroup;
 			children = (
+				0925E31B1EAE7B49004591B5 /* cocos2d-prefix.pch */,
 				503DD8CE1926736A00CD74DD /* CCApplication-ios.h */,
 				503DD8CF1926736A00CD74DD /* CCApplication-ios.mm */,
 				503DD8D01926736A00CD74DD /* CCCommon-ios.mm */,
@@ -10251,6 +10260,7 @@
 		50ABBF4E1926664700A911A9 /* mac */ = {
 			isa = PBXGroup;
 			children = (
+				0925E3171EAE7B22004591B5 /* cocos2d-prefix.pch */,
 				50ABBF4F1926664700A911A9 /* CCApplication-mac.h */,
 				50ABBF501926664700A911A9 /* CCApplication-mac.mm */,
 				50ABBF511926664700A911A9 /* CCCommon-mac.mm */,
@@ -12044,6 +12054,7 @@
 				B665E35C1AA80A6500DDB1C5 /* CCPUOnRandomObserver.h in Headers */,
 				15AE196F19AAD35700C27E9E /* CCActionTimelineCache.h in Headers */,
 				1A5701F0180BCB8C0088DEC7 /* CCTransitionProgress.h in Headers */,
+				0925E3181EAE7B22004591B5 /* cocos2d-prefix.pch in Headers */,
 				50864CD61C7BC1B100B3BAB1 /* cpSlideJoint.h in Headers */,
 				1A5701F9180BCBAD0088DEC7 /* CCMenu.h in Headers */,
 				B6CAB4A11AF9AA1A00B9B856 /* PosixThreadSupport.h in Headers */,
@@ -12250,6 +12261,7 @@
 				B6CAB4A31AF9AA1A00B9B856 /* PpuAddressSpace.h in Headers */,
 				15AE190019AAD35000C27E9E /* CCComAudio.h in Headers */,
 				B6CAB3DB1AF9AA1A00B9B856 /* btSolverConstraint.h in Headers */,
+				0925E31C1EAE7B49004591B5 /* cocos2d-prefix.pch in Headers */,
 				B6CAB2911AF9AA1A00B9B856 /* btCollisionShape.h in Headers */,
 				B665E3481AA80A6500DDB1C5 /* CCPUOnExpireObserverTranslator.h in Headers */,
 				5020A17D1D49912500E80C72 /* AttachmentVertices.h in Headers */,
@@ -12899,6 +12911,7 @@
 				507B3DB31C31BDD30067B53E /* CCPUCollisionAvoidanceAffector.h in Headers */,
 				1A5FB7C61DF012D900C918C1 /* AudioMacros.h in Headers */,
 				5020A1C71D49912500E80C72 /* PathAttachment.h in Headers */,
+				0925E31A1EAE7B22004591B5 /* cocos2d-prefix.pch in Headers */,
 				507B3DB41C31BDD30067B53E /* btQuantization.h in Headers */,
 				507B3DB51C31BDD30067B53E /* CCVector.h in Headers */,
 				507B3DB61C31BDD30067B53E /* CCEventCustom.h in Headers */,
@@ -13717,6 +13730,7 @@
 				1A40D1201E8E56C7002E363A /* filereadstream.h in Headers */,
 				507B40A01C31BDD30067B53E /* CCPULineEmitter.h in Headers */,
 				507B40A11C31BDD30067B53E /* CCNodeGrid.h in Headers */,
+				0925E31E1EAE7B49004591B5 /* cocos2d-prefix.pch in Headers */,
 				507B40A21C31BDD30067B53E /* CCThread.h in Headers */,
 				5020A17F1D49912500E80C72 /* AttachmentVertices.h in Headers */,
 				507B40A31C31BDD30067B53E /* UITextField.h in Headers */,
@@ -13994,6 +14008,7 @@
 				B665E3C51AA80A6600DDB1C5 /* CCPUScaleAffectorTranslator.h in Headers */,
 				B6DD2FF81B04825B00E47F5F /* fastlz.h in Headers */,
 				B665E4351AA80A6600DDB1C5 /* CCPUVertexEmitter.h in Headers */,
+				0925E3191EAE7B22004591B5 /* cocos2d-prefix.pch in Headers */,
 				5020A22F1D49912500E80C72 /* VertexAttachment.h in Headers */,
 				B665E2451AA80A6500DDB1C5 /* CCPUCollisionAvoidanceAffector.h in Headers */,
 				B6CAB3381AF9AA1A00B9B856 /* btQuantization.h in Headers */,
@@ -14812,6 +14827,7 @@
 				1A40D11F1E8E56C7002E363A /* filereadstream.h in Headers */,
 				ED9C6A9718599AD8000A5232 /* CCNodeGrid.h in Headers */,
 				50ABC0201926664800A911A9 /* CCThread.h in Headers */,
+				0925E31D1EAE7B49004591B5 /* cocos2d-prefix.pch in Headers */,
 				15AE1B8519AADA9A00C27E9E /* UITextField.h in Headers */,
 				1A01C69318F57BE800EFE3A6 /* CCDouble.h in Headers */,
 				B665E2511AA80A6500DDB1C5 /* CCPUColorAffectorTranslator.h in Headers */,
